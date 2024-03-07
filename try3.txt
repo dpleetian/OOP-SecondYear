@@ -1,1 +1,235 @@
-Try try try try try try try try try try try try try
+import java.util.Scanner;
+
+public class sample123 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Enter Student ID: ");
+        String id1= scan.nextLine();
+        
+        System.out.print("Enter Student Name: ");
+        String name1 = scan.nextLine();
+        
+        
+        System.out.print("Enter Course Yr. Section: ");
+        String courseYr1= scan.nextLine();
+        
+        System.out.print("Enter Prelim Grade: ");
+        Double prelimGrade1 = scan.nextDouble();
+        
+        System.out.print("Enter Midterm Grade: ");
+        Double midtermGrade1 = scan.nextDouble();
+        
+        System.out.print("Enter Final Grade: ");
+        Double finalsGrade1 = scan.nextDouble();
+    
+        //Student2
+        scan.nextLine();
+        System.out.print("Enter Student2 ID: ");
+        String id2 = scan.nextLine();
+        
+        System.out.print("Enter Student2 Name: ");
+        String name2 = scan.nextLine();
+        
+        
+        System.out.print("Enter Course Yr. Section: ");
+        String courseYr2 = scan.nextLine();
+        
+        System.out.print("Enter Prelim Grade: ");
+        Double prelimGrade2 = scan.nextDouble();
+        
+        System.out.print("Enter Midterm Grade: ");
+        Double midtermGrade2 = scan.nextDouble();
+        
+        System.out.print("Enter Final Grade: ");
+        Double finalsGrade2 = scan.nextDouble();
+        
+        
+        
+        //Student3
+        scan.nextLine();
+        System.out.print("Enter Student3 ID: ");
+        String id3 = scan.nextLine();
+        
+        
+        System.out.print("Enter Student3 Name: ");
+        String name3 = scan.nextLine();
+        
+        
+        System.out.print("Enter Course Yr. Section: ");
+        String courseYr3 = scan.nextLine();
+        
+        System.out.print("Enter Prelim Grade: ");
+        Double prelimGrade3 = scan.nextDouble();
+        
+        System.out.print("Enter Midterm Grade: ");
+        Double midtermGrade3 = scan.nextDouble();
+        
+        System.out.print("Enter Final Grade: ");
+        Double finalsGrade3 = scan.nextDouble();
+        
+        
+       
+        
+        
+        
+        //Student4
+        scan.nextLine();
+         System.out.print("Enter Student4 ID: ");
+        String id4 = scan.nextLine();
+        
+        
+        
+        System.out.print("Enter Student4 Name: ");
+        String name4 = scan.nextLine();
+        
+        
+        System.out.print("Enter Course Yr. Section: ");
+        String courseYr4 = scan.nextLine();
+        
+        System.out.print("Enter Prelim Grade: ");
+        Double prelimGrade4 = scan.nextDouble();
+        
+        System.out.print("Enter Midterm Grade: ");
+        Double midtermGrade4 = scan.nextDouble();
+        
+        System.out.print("Enter Final Grade: ");
+        Double finalsGrade4 = scan.nextDouble();
+        
+        
+        
+        
+        // Student 5 
+        scan.nextLine();
+        
+        System.out.print("Enter Student5 ID: ");
+        String id5 = scan.nextLine();
+        
+        
+        
+        System.out.print("Enter Student5 Name: ");
+        String name5 = scan.nextLine();
+        
+        
+        System.out.print("Enter Course Yr. Section: ");
+        String courseYr5 = scan.nextLine();
+        
+        System.out.print("Enter Prelim Grade: ");
+        Double prelimGrade5 = scan.nextDouble();
+        
+        System.out.print("Enter Midterm Grade: ");
+        Double midtermGrade5 = scan.nextDouble();
+        
+        System.out.print("Enter Final Grade: ");
+        Double finalsGrade5 = scan.nextDouble();
+          
+        Double average1 = (prelimGrade1 + midtermGrade1 + finalsGrade1)/3;
+        Double average2 = (prelimGrade2 + midtermGrade2 + finalsGrade2)/3;
+        Double average3 = (prelimGrade3 + midtermGrade3 + finalsGrade3)/3;
+        Double average4 = (prelimGrade4 + midtermGrade4 + finalsGrade4)/3;
+        Double average5 = (prelimGrade5 + midtermGrade5 + finalsGrade5)/3;
+    
+            System.out.println(""); 
+            System.out.println("Student 1 ID: " + id1);
+            System.out.println("Student 1 Name: " + name1);
+            System.out.println("Course Yr. Section: " + courseYr1);
+            System.out.println("PRELIM GRADE: " + prelimGrade1);
+            System.out.println("MIDTERM GRADE: " + midtermGrade1);
+            System.out.println("FINAL GRADE: " + finalsGrade1);
+            if(average1 >= 3.1 && average1 <= 5.0){
+                System.out.print("Final average: " + average1 + " Failed");
+            }else if (average1 >= 2.5 && average1 <= 3.0 ){
+                System.out.print("Final average: " + average1 + " Good");
+            }else if (average1 >= 2.1 && average1 <= 2.4){
+                System.out.print("Final average: " + average1 + " Better");
+            }else if (average1 >= 1.5 && average1 <= 2.0 ){
+                System.out.print("Final average: " + average1 + " Excellent");
+            } else if (average1 >= 1.0 && average1 <= 1.4){
+                System.out.print("Final Average: " + average1 + " Outstanding");
+            }
+            System.out.println(""); 
+
+            System.out.println(""); 
+            System.out.println("Student ID 1: " + id2);
+            System.out.println("Student 2 Name: " + name2);
+            System.out.println("Course Yr. Section: " + courseYr2);
+            System.out.println("Student 1 Average: " + average2);
+            System.out.println("PRELIM GRADE: " + prelimGrade2);
+            System.out.println("MIDTERM GRADE: " + midtermGrade2);
+            System.out.println("FINAL GRADE: " + finalsGrade2);
+            if(average2 >= 3.1 && average2 <= 5.0){
+                System.out.print("Final average: " + average2 + " Failed");
+            }else if (average2 >= 2.5 && average2 <= 3.0 ){
+                System.out.print("Final average: " + average2 + " Good");
+            }else if (average2 >= 2.1 && average2 <= 2.4){
+                System.out.print("Final average: " + average2 + " Better");
+            }else if (average2 >= 1.5 && average2 <= 2.0 ){
+                System.out.print("Final average: " + average2 + " Excellent");
+            } else if (average2 >= 1.0 && average2 <= 1.4){
+                System.out.print("Final Average: " + average2 + " Outstanding");
+            }
+            System.out.println(""); 
+            
+            System.out.println(""); 
+            System.out.println("Student ID 3: " + id3);
+            System.out.println("Student 3 Name: " + name3);
+            System.out.println("Course Yr. Section: " + courseYr3);
+            System.out.println("PRELIM GRADE: " + prelimGrade3);
+            System.out.println("MIDTERM GRADE: " + midtermGrade3);
+            System.out.println("FINAL GRADE: " + finalsGrade3);
+            if(average3 >= 3.1 && average3 <= 5.0){
+                System.out.print("Final average: " + average3 + " Failed");
+            }else if (average3 >= 2.5 && average3 <= 3.0 ){
+                System.out.print("Final average: " + average3 + " Good");
+            }else if (average3 >= 2.1 && average3 <= 2.4){
+                System.out.print("Final average: " + average3 + " Better");
+            }else if (average3 >= 1.5 && average3 <= 2.0 ){
+                System.out.print("Final average: " + average3 + " Excellent");
+            } else if (average3 >= 1.0 && average3 <= 1.4){
+                System.out.print("Final Average: " + average3 + " Outstanding");
+            }
+            System.out.println(""); 
+             
+            System.out.println(""); 
+            System.out.println("Student ID 4: " + id4);
+            System.out.println("Student 4 Name: " + name4);
+            System.out.println("Course Yr. Section: " + courseYr4);
+            System.out.println("PRELIM GRADE: " + prelimGrade4);
+            System.out.println("MIDTERM GRADE: " + midtermGrade4);
+            System.out.println("FINAL GRADE: " + finalsGrade4);
+            if(average4 >= 3.1 && average4 <= 5.0){
+                System.out.print("Final average: " + average4 + " Failed");
+            }else if (average4 >= 2.5 && average4 <= 3.0 ){
+                System.out.print("Final average: " + average4 + " Good");
+            }else if (average4 >= 2.1 && average4 <= 2.4){
+                System.out.print("Final average: " + average4 + " Better");
+            }else if (average4 >= 1.5 && average4 <= 2.0 ){
+                System.out.print("Final average: " + average4 + " Excellent");
+            } else if (average4 >= 1.0 && average4 <= 1.4){
+                System.out.print("Final Average: " + average4 + " Outstanding");
+            }
+            System.out.println(""); 
+            
+            System.out.println(""); 
+            System.out.println("Student ID 5: " + id5);
+            System.out.println("Student 5 Name: " + name5);
+            System.out.println("Course Yr. Section: " + courseYr5);
+            System.out.println("PRELIM GRADE: " + prelimGrade5);
+            System.out.println("MIDTERM GRADE: " + midtermGrade5);
+            System.out.println("FINAL GRADE: " + finalsGrade5);
+            if(average5 >= 3.1 && average5 <= 5.0){
+                System.out.print("Final average: " + average5 + " Failed");
+            }else if (average5 >= 2.5 && average5 <= 3.0 ){
+                System.out.print("Final average: " + average5 + " Good");
+            }else if (average5 >= 2.1 && average5 <= 2.4){
+                System.out.print("Final average: " + average5 + " Better");
+            }else if (average5 >= 1.5 && average5 <= 2.0 ){
+                System.out.print("Final average: " + average5 + " Excellent");
+            } else if (average5 >= 1.0 && average5 <= 1.4){
+                System.out.print("Final Average: " + average5 + " Outstanding");
+            } 
+            System.out.println(""); 
+            
+                   
+    }}  

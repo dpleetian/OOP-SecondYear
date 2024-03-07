@@ -56,5 +56,6 @@ public class activity1_leetian {
             System.out.println("Student Semestral Average:" + list[i][8]);
             System.out.println("Remarks:" + list[i][9]);
             }
+        scanner.close();
     }
 }
